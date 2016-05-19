@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5B01373A-5540-43D5-9D32-A10684EEB998}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{737EF96F-7C51-4C62-81CA-1E582F40FF3D}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MusicBrainz.Core", "src\MusicBrainz.Core\MusicBrainz.Core.xproj", "{7ECE1AB2-70B9-4307-88DA-C32C6663BD91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7ECE1AB2-70B9-4307-88DA-C32C6663BD91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ECE1AB2-70B9-4307-88DA-C32C6663BD91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ECE1AB2-70B9-4307-88DA-C32C6663BD91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ECE1AB2-70B9-4307-88DA-C32C6663BD91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7ECE1AB2-70B9-4307-88DA-C32C6663BD91} = {5B01373A-5540-43D5-9D32-A10684EEB998}
+	EndGlobalSection
+EndGlobal
