@@ -1,8 +1,21 @@
 ﻿{
   "version": "1.0.0-*",
-
+  "title": "MusicBrainz.Core",
+  "description": "MusicBrainz C# Mappings for .NET Core",
+  "authors": [ "Arnaud Castaner", "BigGranu" ],
+  "copyright": "(c) Ribandelle 2016 under MIT license.",
+  "packOptions": {
+    "requireLicenseAcceptance": true,
+    "tags": [ "musicbrainz" ],
+    "projectUrl": "https://github.com/ribandelle/MusicBrainz.Core",
+    "licenseUrl": "https://tldrlegal.com/l/mit",
+    "summary": ".NET data bindings for MusicBrainz XML Web Service v2.0 compatible with .NET Core"
+  },
   "dependencies": {
-    "NETStandard.Library": "1.5.0-rc2-24027"
+    "NETStandard.Library": "1.5.0-rc2-24027",
+    "System.Net.Requests": "4.0.11-rc2-24027",
+    "System.Reflection.TypeExtensions": "4.1.0-rc2-24027",
+    "System.Xml.XmlSerializer": "4.0.11-rc2-24027"
   },
 
   "frameworks": {
