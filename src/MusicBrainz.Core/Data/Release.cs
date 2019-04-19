@@ -51,6 +51,7 @@ namespace MusicBrainz.Data
       Mediumlist = new ReleaseMediumlist();
       Id = string.Empty;
       Score = 0;
+      TagList = new List<GTag>();
     }
 
     /// <remarks />
@@ -112,6 +113,10 @@ namespace MusicBrainz.Data
     /// <remarks />
     [XmlAttribute("score", Form = XmlSchemaForm.Qualified, Namespace = "http://musicbrainz.org/ns/ext#-2.0")]
     public int Score { get; set; }
+    
+    /// <remarks />
+    [XmlArray("tag-list"), XmlArrayItem("tag", IsNullable = false)]
+    public List<GTag> Taglist { get; set; }
   }
 
   /// <remarks />
