@@ -116,7 +116,7 @@ namespace MusicBrainz.Data
     
     /// <remarks />
     [XmlArray("tag-list"), XmlArrayItem("tag", IsNullable = false)]
-    public List<GTag> Taglist { get; set; }
+    public List<GTag> TagList { get; set; }
   }
 
   /// <remarks />
